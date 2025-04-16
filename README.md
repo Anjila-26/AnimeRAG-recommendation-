@@ -1,8 +1,10 @@
 # Anime Recommendation System
 
-A personalized anime recommendation system powered by LangChain, Ollama, and vector search.
+A personalized anime recommendation system powered by LangChain, Ollama, and vector search.(This is very Simple Implementation without complex recommendation algorithm or search.)
+***NOTE : The retriever retrieves the most relevant information from the database and the LLM use that retreieved dataset as the base to give suggestion from the general perspective.***
 
-![Anime Recommender](https://github.com/username/anime-recommender/blob/main/screenshots/app_screenshot.png)
+#### Database Used : 
+https://www.kaggle.com/datasets/muhammadishaque/anime-dataset-for-nlp
 
 ## Overview
 
