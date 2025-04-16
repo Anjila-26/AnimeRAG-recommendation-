@@ -22,6 +22,7 @@ The application uses a vector database created from anime metadata (stored in CS
 - **Hybrid approach**: Combines database information with LLM knowledge
 
 ## Project Structure
+```
 anime-recommender/
 ├── anime_rec.py          # Main Streamlit application
 ├── vector.py             # Vector database retriever setup
@@ -30,6 +31,7 @@ anime-recommender/
 ├── chroma_langchain_db/  # Generated vector database (created by agents.py)
 ├── README.md             # This file
 └── requirements.txt      # Project dependencies
+```
 
 ## Installation
 
